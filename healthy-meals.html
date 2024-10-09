@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Meals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Healthy Meals</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#submit">Submit a Service</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to Bur-Rein Services</h2>
+      <p>Find the best services in the Bur-Rein area, all in one place!</p>
+    </section>
+
+    <section>
+      <h2>Search for a Service</h2>
+      <form>
+        <input type="text" id="search-bar" name="search" placeholder="Enter service keyword...">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <main>
+        <h2>Healthy Meals</h2>
+        <p>Made fresh daily! Enjoy healthy and wholesome meals for only R80 per plate.</p>
+        <ul>
+            <li>Healthy and wholesome meals</li>
+            <li>Saves you time to cook</li>
+            <li>Convenience</li>
+            <li>Free delivery in the greater Bu-Rein area</li>
+        </ul>
+        <p>WhatsApp your name and address to 0721274493 to receive the menu. Menus are updated weekly.</p>
+        <p>Also available: Healthy packed lunches for children and professionals. Price range: R35-R55.</p>
+
+        <section>
+            <h2>Submit Your Service</h2>
+            <p>Are you a service provider in the Bur-Rein area? Submit your service to be listed on our website!</p>
+            <form action="https://formspree.io/f/mwkjngrv" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="service">Service Name:</label>
+                <input type="text" id="service" name="service" required>
+
+                <label for="description">Service Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <input type="submit" value="Submit Your Service">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Bur-Rein Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

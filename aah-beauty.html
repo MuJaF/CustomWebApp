@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aah-beauty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">AAH-Beauty</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#submit">Submit a Service</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to Bur-Rein Services</h2>
+      <p>Find the best services in the Bur-Rein area, all in one place!</p>
+    </section>
+
+    <section>
+      <h2>Search for a Service</h2>
+      <form>
+        <input type="text" id="search-bar" name="search" placeholder="Enter service keyword...">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+        <section>
+            <h2>AAH Company - Beauty</h2>
+            <p>At AAH Company - Beauty, we offer a variety of beauty services to make you look and feel your best. Our services include:</p>
+            <ul>
+                <li>Facials (Optiphi)</li>
+                <li>Reflexology (hands and feet)</li>
+                <li>Cupping (back) massage</li>
+                <li>Chemical peels (Optiphi)</li>
+            </ul>
+            <p>For more information or to book an appointment, please contact us at:</p>
+            <ul>
+                <li>Address: 59 The Hudson</li>
+                <li>WhatsApp: 071 543 4801</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Combo Specials</h2>
+            <p>Take advantage of our combo specials:</p>
+            <ul>
+                <li>Facial and reflexology</li>
+                <li>Chemical Peel and Head/Hand Massage</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Book an Appointment</h2>
+            <p>Fill out the form below to book an appointment:</p>
+            <form action="https://formspree.io/f/mwkjngrv" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; AAH Company - Beauty. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bur-Rein Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Braai Master</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#submit">Submit a Service</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to Bur-Rein Services</h2>
+      <p>Find the best services in the Bur-Rein area, all in one place!</p>
+    </section>
+
+    <section>
+      <h2>Search for a Service</h2>
+      <form>
+        <input type="text" id="braai-search-bar" name="search" placeholder="Enter service keyword...">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h1>Braai Master</h1>
+
+      <h2>Menu</h2>
+      <ul>
+        <li><strong>Boerewors Roll:</strong> R25</li>
+        <li><strong>Steak Roll:</strong> R45</li>
+        <li><strong>Lamb Chop:</strong> R40</li>
+        <li><strong>Chicken Drumstick:</strong> R30</li>
+        <li><strong>Garlic Bread:</strong> R20</li>
+        <li><strong>Potato Salad:</strong> R25</li>
+        <li><strong>Green Salad:</strong> R20</li>
+        <li><strong>Baked Potato:</strong> R15</li>
+      </ul>
+
+      <h2>Contact Us</h2>
+      <p>To place an order or for more information, please contact:</p>
+      <ul>
+        <li><strong>Whatsapp:</strong> 0845272182</li>
+        <li><strong>Email:</strong> iedereesfrancis@gmail.com</li>
+      </ul>
+      </section>
+
+    <section>
+      <h2>Submit Your Service</h2>
+      <p>Are you a service provider in the Bur-Rein area? Submit your service to be listed on our website!</p>
+      <form action="https://formspree.io/f/mwkjngrv" method="POST">
+        <label for="name">Service Provider Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="service">Service:</label>
+        <input type="text" id="service" name="service" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+
+        <button type="submit">Submit Service</button>
+        <section id="submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Bur-Rein Services. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
+
+
+
+
